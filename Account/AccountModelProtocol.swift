@@ -10,8 +10,8 @@ import Foundation
 
 protocol AccountModelProtocol {
     
-//  function will deposit or withdraw an amount and will
+//  Function will deposit or withdraw an amount and will
 //  return the balance
-    func transact(deposit : NSNumber , withdraw :NSNumber) -> NSNumber
+    func transact(deposit : Double , withdraw :Double) -> Double
     
 }
