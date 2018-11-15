@@ -16,4 +16,6 @@ protocol AccountViewProtocol {
     
     func setBalanceValue( balanceAmount :String )
     
+    func setController(controller:ViewController)
+    
 }

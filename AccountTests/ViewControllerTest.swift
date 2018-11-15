@@ -46,5 +46,10 @@ class MockView:AccountViewProtocol{
         balance = balanceAmount
     }
     
+    func setController(controller: ViewController) {
+        
+    }
+    
+    
 }
 

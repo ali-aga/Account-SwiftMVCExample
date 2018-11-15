@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		969378CC219DDC6C00DAADEA /* AccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 969378CB219DDC6C00DAADEA /* AccountView.xib */; };
+		969378CE219DE15700DAADEA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969378CD219DE15700DAADEA /* AccountView.swift */; };
 		96E2A7EE2199FC7F007A1364 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2A7ED2199FC7F007A1364 /* AccountModel.swift */; };
 		96E2A7F0219A1AB5007A1364 /* AccountViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2A7EF219A1AB5007A1364 /* AccountViewProtocol.swift */; };
 		96E2A7F2219A2808007A1364 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2A7F1219A2808007A1364 /* ViewControllerTest.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		969378CB219DDC6C00DAADEA /* AccountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountView.xib; sourceTree = "<group>"; };
+		969378CD219DE15700DAADEA /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		96E2A7ED2199FC7F007A1364 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 		96E2A7EF219A1AB5007A1364 /* AccountViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewProtocol.swift; sourceTree = "<group>"; };
 		96E2A7F1219A2808007A1364 /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				96E76BB12194C71A00B2AAC8 /* Info.plist */,
 				96E76BC52194EC6600B2AAC8 /* AccountModelProtocol.swift */,
 				96E2A7ED2199FC7F007A1364 /* AccountModel.swift */,
+				969378CB219DDC6C00DAADEA /* AccountView.xib */,
+				969378CD219DE15700DAADEA /* AccountView.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				969378CC219DDC6C00DAADEA /* AccountView.xib in Resources */,
 				96E76BB02194C71A00B2AAC8 /* LaunchScreen.storyboard in Resources */,
 				96E76BAD2194C71A00B2AAC8 /* Assets.xcassets in Resources */,
 				96E76BAB2194C71A00B2AAC8 /* Main.storyboard in Resources */,
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				969378CE219DE15700DAADEA /* AccountView.swift in Sources */,
 				96E2A7F0219A1AB5007A1364 /* AccountViewProtocol.swift in Sources */,
 				96E76BA82194C71A00B2AAC8 /* ViewController.swift in Sources */,
 				96E76BC62194EC6600B2AAC8 /* AccountModelProtocol.swift in Sources */,

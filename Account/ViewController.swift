@@ -14,9 +14,14 @@ class ViewController: UIViewController {
     var accountView: AccountViewProtocol?
     var accountModel: AccountModelProtocol?
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupView()
+        setupModel()
+    }
+    
+    
+    fileprivate func setupView() {
         // Do any additional setup after loading the view,
         // typically from a nib.
         if let aView = self.view as? AccountViewProtocol{
@@ -24,17 +29,20 @@ class ViewController: UIViewController {
                 setAccountView(aView)
             }
         }
-//      If model is not injected, inject a default one here
+    }
+    
+    fileprivate func setupModel() {
+        // If model is not injected, inject a default one here
         if accountModel == nil {
             setAccountModel(AccountModel())
         }
     }
-    
 
 // Use this method to inject the view dependency if we need to.
 // Method can be for testing mock view.
     func setAccountView(_ aView  :AccountViewProtocol){
         accountView = aView
+        accountView?.setController(controller: self)
     }
     
     
@@ -63,4 +71,3 @@ class ViewController: UIViewController {
     }
     
 }
-
